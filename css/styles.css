@@ -152,6 +152,7 @@ img {
      url(../images/hero-img.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title {
@@ -218,6 +219,19 @@ img {
     width: 100%;
 }
 
+.feature-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+}
+
+
 .feature-title {
     font-weight: 500;
     font-size: 20px;
@@ -260,6 +274,7 @@ img {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
