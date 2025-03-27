@@ -335,10 +335,15 @@ img {
     height: 40px;
 }
 
+
 .social-link-point {
 width: 16px;
 height: 16px;
+}
 
+.social-list-point-team:hover,
+.social-list-point-team:focus {
+    background-color: #404bbf;
 }
 /*---------------------------team--------------------------*/
 
@@ -442,6 +447,12 @@ height: 16px;
 
 .footer-container-part-one {
     margin-right: 120px;
+}
+
+.social-list-point-footer:hover,
+.social-list-point-footer:focus
+{
+    background-color: #31d0aa;
 }
 
 /*-------------------------footert-------------------------*/
